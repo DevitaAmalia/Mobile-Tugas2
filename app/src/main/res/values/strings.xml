@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Tugas2</string>
+    <string name="title_reminder">Daily Water Intake</string>
+    <string name="target_label">Water intake goal: %1$d ml</string>
+    <string name="current_intake_format">%1$d ml</string>
+    <string name="default_zero_ml">0 ml</string>
+
+    <string name="hint_input_water">Add water intake (ml)</string>
+    <string name="hint_set_target">Ex: 2500</string>
+
+    <string name="btn_add_intake">+ Add Intake</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_cancel">Cancel</string>
+
+    <string name="dialog_target_title">Set new target</string>
+    <string name="toast_target_changed">Target set to %1$d ml</string>
+    <string name="toast_goal_reached">Target achieved! You\'re well hydrated 💧</string>
+    <string name="error_empty_input">Input number</string>
+</resources>
