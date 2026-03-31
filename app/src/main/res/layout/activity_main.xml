@@ -25,10 +25,7 @@
             android:text="@string/title_reminder"
             android:textColor="@color/white"
             android:textSize="25sp"
-            android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/tvCurrentIntake"
@@ -38,10 +35,7 @@
             android:text="@string/default_zero_ml"
             android:textColor="@color/white"
             android:textStyle="bold"
-            android:textSize="40sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tvTitle" />
+            android:textSize="40sp" />
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -79,10 +73,7 @@
             android:layout_marginTop="20dp"
             android:max="100"
             android:progress="0"
-            android:progressDrawable="@drawable/custom_progress_bar"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tvCurrentIntake" />
+            android:progressDrawable="@drawable/custom_progress_bar" />
 
         <EditText
             android:id="@+id/etInputWater"
@@ -95,10 +86,7 @@
             android:textColor="@color/white"
             android:backgroundTint="@color/white"
             android:textColorHint="@color/white"
-            android:textSize="16sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/progressBar" />
+            android:textSize="16sp" />
 
         <Button
             android:id="@+id/btnCalculate"
@@ -109,9 +97,6 @@
             android:text="@string/btn_add_intake"
             android:textColor="@color/blue"
             android:textSize="20sp"
-            android:textStyle="bold"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/etInputWater" />
+            android:textStyle="bold" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
