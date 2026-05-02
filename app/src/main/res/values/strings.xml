@@ -11,6 +11,11 @@
     <string name="btn_add_intake">+ Add Intake</string>
     <string name="btn_save">Save</string>
     <string name="btn_cancel">Cancel</string>
+    <string name="btn_see_history">History</string>
+
+    <string name="history_intake">+ 0 ml</string>
+    <string name="history_total">Total: 0 ml</string>
+    <string name="history_time">Saturday, 02 May 2026 - 00:00</string>
 
     <string name="dialog_target_title">Set new target</string>
     <string name="toast_target_changed">Target set to %1$d ml</string>
