@@ -70,7 +70,14 @@ class MainActivity : AppCompatActivity() {
 
         // tambah intake
         btnAdd.setOnClickListener {
-            val inputStr = etInput.text.toString()
+            val inputStr = etInput.text.toString().trim()
+
+            if (inputStr.isEmpty()) {
+                etInput.error = getString(R.string.hint_input_water)
+                etInput.requestFocus()
+                return@setOnClickListener
+            }
+
             if (inputStr.isNotEmpty()) {
                 val inputVal = inputStr.toInt()
                 totalIntake += inputVal
